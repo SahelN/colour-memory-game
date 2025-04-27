@@ -1,0 +1,645 @@
+2025-04-27 17:20:09.067 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 17:20:09.103 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 17:20:09.158 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 17:20:09.160 +02:00 [INF] Hosting environment: Development
+2025-04-27 17:20:09.161 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 17:22:09.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 17:22:09.270 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 175.6407ms
+2025-04-27 17:22:09.288 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 17:22:09.288 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 17:22:09.306 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 18.0635ms
+2025-04-27 17:22:09.321 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.1995ms
+2025-04-27 17:22:09.352 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 17:22:09.365 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4311ms
+2025-04-27 17:22:14.785 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 17:22:14.795 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:22:14.810 +02:00 [INF] Route matched with {action = "StartGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] StartGame() on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 17:22:15.116 +02:00 [INF] Startar CreateGameAsync metod...
+2025-04-27 17:22:15.244 +02:00 [INF] New game created successfully with 16 cards.
+2025-04-27 17:22:15.252 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 17:22:15.268 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api) in 450.7061ms
+2025-04-27 17:22:15.270 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:22:15.274 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 200 null application/json; charset=utf-8 488.5303ms
+2025-04-27 17:23:15.561 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 17:23:15.599 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 17:23:15.642 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 17:23:15.644 +02:00 [INF] Hosting environment: Development
+2025-04-27 17:23:15.645 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 17:23:25.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 17:23:25.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 164.8851ms
+2025-04-27 17:23:25.915 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 17:23:25.916 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 17:23:26.001 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 84.2619ms
+2025-04-27 17:23:26.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.7385ms
+2025-04-27 17:23:26.045 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 17:23:26.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.257ms
+2025-04-27 17:23:50.115 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 17:23:50.191 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:23:50.207 +02:00 [INF] Route matched with {action = "StartGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] StartGame() on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 17:23:50.359 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api) in 146.4233ms
+2025-04-27 17:23:50.408 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:23:50.503 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Driver.MongoConfigurationException: Host 'localhost:127017' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.ExtractHosts(Match match)
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse()
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString, Boolean isInternalRepresentation, IDnsResolver dnsResolver)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString)
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url)
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url)
+   at MongoDB.Driver.MongoUrl..ctor(String url)
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString)
+   at MongoDB.Driver.MongoClient..ctor(String connectionString)
+   at ColourMemory.Api.Services.GameService..ctor(IOptions`1 settings, ILogger`1 logger) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 18
+   at InvokeStub_GameService..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 17:23:50.565 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 500 null text/plain; charset=utf-8 450.1702ms
+2025-04-27 17:52:59.928 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 17:52:59.962 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 17:53:00.006 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 17:53:00.008 +02:00 [INF] Hosting environment: Development
+2025-04-27 17:53:00.010 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 17:53:01.614 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 17:53:01.827 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 216.9804ms
+2025-04-27 17:53:01.863 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 17:53:01.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 9.9633ms
+2025-04-27 17:53:01.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 17:53:01.944 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.0402ms
+2025-04-27 17:53:01.991 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 17:53:02.002 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.4412ms
+2025-04-27 17:53:14.501 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 17:53:14.510 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:53:14.527 +02:00 [INF] Route matched with {action = "StartGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] StartGame() on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 17:53:14.739 +02:00 [ERR] Failed to connect to MongoDB. Please check the connection string or database settings.
+MongoDB.Driver.MongoConfigurationException: Host 'localhost:127017' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.ExtractHosts(Match match)
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse()
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString, Boolean isInternalRepresentation, IDnsResolver dnsResolver)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString)
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url)
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url)
+   at MongoDB.Driver.MongoUrl..ctor(String url)
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString)
+   at MongoDB.Driver.MongoClient..ctor(String connectionString)
+   at ColourMemory.Api.Services.GameService..ctor(IOptions`1 settings, ILogger`1 logger) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 20
+2025-04-27 17:53:14.860 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api) in 327.14ms
+2025-04-27 17:53:14.905 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:53:14.995 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Driver.MongoConfigurationException: Host 'localhost:127017' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.ExtractHosts(Match match)
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse()
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString, Boolean isInternalRepresentation, IDnsResolver dnsResolver)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString)
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url)
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url)
+   at MongoDB.Driver.MongoUrl..ctor(String url)
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString)
+   at MongoDB.Driver.MongoClient..ctor(String connectionString)
+   at ColourMemory.Api.Services.GameService..ctor(IOptions`1 settings, ILogger`1 logger) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 20
+   at InvokeStub_GameService..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 17:53:15.041 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 500 null text/plain; charset=utf-8 539.9104ms
+2025-04-27 17:55:04.011 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 17:55:04.042 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 17:55:04.091 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 17:55:04.094 +02:00 [INF] Hosting environment: Development
+2025-04-27 17:55:04.094 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 17:55:13.365 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 17:55:13.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 169.0592ms
+2025-04-27 17:55:13.540 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 17:55:13.540 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 17:55:13.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 14.3411ms
+2025-04-27 17:55:13.577 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.5528ms
+2025-04-27 17:55:13.605 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 17:55:13.618 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0309ms
+2025-04-27 17:55:20.937 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 17:55:20.946 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:55:20.962 +02:00 [INF] Route matched with {action = "StartGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] StartGame() on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 17:55:21.236 +02:00 [INF] Successfully connected to MongoDB database: ColourMemoryDb
+2025-04-27 17:55:21.240 +02:00 [INF] Startar CreateGameAsync metod...
+2025-04-27 17:55:21.362 +02:00 [INF] New game created successfully with 16 cards.
+2025-04-27 17:55:21.370 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 17:55:21.379 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api) in 411.8376ms
+2025-04-27 17:55:21.381 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 17:55:21.383 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 200 null application/json; charset=utf-8 446.8506ms
+2025-04-27 17:59:01.782 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7042/api/game/680e5369c17f65b5aadeac1a - application/json 1080
+2025-04-27 17:59:01.822 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 17:59:01.830 +02:00 [INF] Route matched with {action = "UpdateGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateGame(System.String, ColourMemory.Api.Models.Game) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 17:59:01.988 +02:00 [INF] Successfully updated game with ID: 680e5369c17f65b5aadeac1a
+2025-04-27 17:59:01.993 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-27 17:59:01.995 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api) in 157.8756ms
+2025-04-27 17:59:01.997 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 17:59:02.000 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7042/api/game/680e5369c17f65b5aadeac1a - 204 null null 247.831ms
+2025-04-27 17:59:32.366 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/api/game/680e5369c17f65b5aadeac1a - null null
+2025-04-27 17:59:32.378 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 17:59:32.387 +02:00 [INF] Route matched with {action = "GetGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] GetGame(System.String) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 17:59:32.484 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 17:59:32.486 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api) in 93.7982ms
+2025-04-27 17:59:32.487 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 17:59:32.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/api/game/680e5369c17f65b5aadeac1a - 200 null application/json; charset=utf-8 122.9043ms
+2025-04-27 20:01:25.476 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 20:01:25.516 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 20:01:25.578 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 20:01:25.580 +02:00 [INF] Hosting environment: Development
+2025-04-27 20:01:25.581 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 20:01:39.219 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 20:01:39.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 180.0286ms
+2025-04-27 20:01:39.410 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 20:01:39.410 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 20:01:39.432 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 22.263ms
+2025-04-27 20:01:39.449 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.0713ms
+2025-04-27 20:01:39.588 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 20:01:39.605 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.0726ms
+2025-04-27 20:18:25.217 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 20:18:25.227 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:18:25.283 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:18:25.321 +02:00 [ERR] HTTP POST /api/game/start responded 500 in 95.1887 ms
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-27 20:18:25.422 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 20:18:25.440 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 500 null text/plain; charset=utf-8 223.2459ms
+2025-04-27 20:41:35.073 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 20:41:35.118 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 20:41:35.305 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 20:41:35.306 +02:00 [INF] Hosting environment: Development
+2025-04-27 20:41:35.307 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 20:48:42.685 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 20:48:42.717 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 20:48:42.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 20:48:42.879 +02:00 [INF] Hosting environment: Development
+2025-04-27 20:48:42.880 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 20:49:41.563 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 20:49:41.727 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 167.3697ms
+2025-04-27 20:49:41.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 20:49:41.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 20:49:41.760 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 22.3665ms
+2025-04-27 20:49:41.784 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.076ms
+2025-04-27 20:49:41.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 20:49:41.824 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.667ms
+2025-04-27 20:49:47.944 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 20:49:47.955 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:49:48.012 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:49:48.052 +02:00 [ERR] HTTP POST /api/game/start responded 500 in 99.0091 ms
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-27 20:49:48.153 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 20:49:48.173 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 500 null text/plain; charset=utf-8 229.1899ms
+2025-04-27 20:50:01.903 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 20:50:01.910 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 6.519ms
+2025-04-27 20:50:01.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 20:50:01.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 20:50:01.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 3.8066ms
+2025-04-27 20:50:01.944 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6894ms
+2025-04-27 20:50:02.007 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 20:50:02.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8614ms
+2025-04-27 20:50:03.818 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 20:50:03.823 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 4.6716ms
+2025-04-27 20:50:03.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 20:50:03.845 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 20:50:03.877 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.7685ms
+2025-04-27 20:50:03.881 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 36.1452ms
+2025-04-27 20:50:03.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 20:50:03.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7191ms
+2025-04-27 20:50:11.593 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 20:50:11.598 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:50:11.626 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:50:11.661 +02:00 [ERR] HTTP POST /api/game/start responded 500 in 62.7920 ms
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-27 20:50:11.750 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 20:50:11.767 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 500 null text/plain; charset=utf-8 174.1856ms
+2025-04-27 20:50:46.753 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 20:50:46.785 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 20:50:46.965 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 20:50:46.967 +02:00 [INF] Hosting environment: Development
+2025-04-27 20:50:46.968 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 20:50:58.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 20:50:58.734 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 174.134ms
+2025-04-27 20:50:58.741 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 20:50:58.741 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 20:50:58.830 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 88.8744ms
+2025-04-27 20:50:58.845 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.5127ms
+2025-04-27 20:50:58.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 20:50:58.881 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.1637ms
+2025-04-27 20:51:04.961 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 20:51:04.971 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:51:05.030 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:51:05.069 +02:00 [ERR] HTTP POST /api/game/start responded 500 in 99.3536 ms
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-27 20:51:05.166 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'ColourMemory.Api.Controllers.GameController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 20:51:05.182 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 500 null text/plain; charset=utf-8 221.1175ms
+2025-04-27 20:56:10.991 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 20:56:11.029 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 20:56:11.085 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 20:56:11.086 +02:00 [INF] Hosting environment: Development
+2025-04-27 20:56:11.087 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 20:56:26.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 20:56:26.477 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 171.7806ms
+2025-04-27 20:56:26.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 20:56:26.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 20:56:26.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 19.6394ms
+2025-04-27 20:56:26.532 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.3405ms
+2025-04-27 20:56:26.557 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 20:56:26.570 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.4432ms
+2025-04-27 20:56:33.928 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 20:56:33.939 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:56:33.955 +02:00 [INF] Route matched with {action = "StartGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] StartGame() on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 20:56:34.223 +02:00 [INF] Successfully connected to MongoDB database: ColourMemoryDb
+2025-04-27 20:56:34.227 +02:00 [INF] Starting CreateGameAsync method...
+2025-04-27 20:56:34.347 +02:00 [INF] New game created successfully with 16 cards.
+2025-04-27 20:56:34.354 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 20:56:34.364 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api) in 402.9369ms
+2025-04-27 20:56:34.366 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 20:56:34.370 +02:00 [INF] HTTP POST /api/game/start responded 200 in 432.3917 ms
+2025-04-27 20:56:34.373 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 200 null application/json; charset=utf-8 445.7384ms
+2025-04-27 20:58:09.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/api/game/680e7de20d2d916bd088f944 - null null
+2025-04-27 20:58:09.495 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 20:58:09.504 +02:00 [INF] Route matched with {action = "GetGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] GetGame(System.String) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 20:58:09.662 +02:00 [INF] Game retrieved successfully with ID: 680e7de20d2d916bd088f944
+2025-04-27 20:58:09.665 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 20:58:09.667 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api) in 159.8526ms
+2025-04-27 20:58:09.668 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 20:58:09.669 +02:00 [INF] HTTP GET /api/game/680e7de20d2d916bd088f944 responded 200 in 174.0106 ms
+2025-04-27 20:58:09.671 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/api/game/680e7de20d2d916bd088f944 - 200 null application/json; charset=utf-8 185.0035ms
+2025-04-27 20:58:53.917 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/api/game/680e7de20d2nnd916bd088f944 - null null
+2025-04-27 20:58:53.945 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 20:58:53.946 +02:00 [INF] Route matched with {action = "GetGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] GetGame(System.String) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 20:58:54.263 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api) in 314.2347ms
+2025-04-27 20:58:54.309 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 20:58:54.340 +02:00 [ERR] HTTP GET /api/game/680e7de20d2nnd916bd088f944 responded 500 in 395.3915 ms
+System.FormatException: '680e7de20d2nnd916bd088f944' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.LinqProviderAdapter.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, ExpressionTranslationOptions translationOptions)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass55_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at ColourMemory.Api.Services.GameService.GetGameAsync(String id) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 74
+   at ColourMemory.Api.Controllers.GameController.GetGame(String id) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Controllers\GameController.cs:line 27
+   at lambda_method20(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-27 20:58:54.505 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: '680e7de20d2nnd916bd088f944' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.LinqProviderAdapter.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, ExpressionTranslationOptions translationOptions)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass55_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at ColourMemory.Api.Services.GameService.GetGameAsync(String id) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 74
+   at ColourMemory.Api.Controllers.GameController.GetGame(String id) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Controllers\GameController.cs:line 27
+   at lambda_method20(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 20:58:54.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/api/game/680e7de20d2nnd916bd088f944 - 500 null text/plain; charset=utf-8 676.7415ms
+2025-04-27 21:13:23.156 +02:00 [INF] Now listening on: https://localhost:7042
+2025-04-27 21:13:23.211 +02:00 [INF] Now listening on: http://localhost:5038
+2025-04-27 21:13:23.275 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 21:13:23.277 +02:00 [INF] Hosting environment: Development
+2025-04-27 21:13:23.278 +02:00 [INF] Content root path: C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api
+2025-04-27 21:13:37.394 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2025-04-27 21:13:37.576 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 184.9309ms
+2025-04-27 21:13:37.610 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 21:13:37.611 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2025-04-27 21:13:37.698 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 88.2452ms
+2025-04-27 21:13:37.719 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.8708ms
+2025-04-27 21:13:37.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2025-04-27 21:13:37.820 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.9342ms
+2025-04-27 21:13:44.884 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7042/api/game/start - null 0
+2025-04-27 21:13:44.894 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 21:13:44.908 +02:00 [INF] Route matched with {action = "StartGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] StartGame() on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 21:13:45.181 +02:00 [INF] Successfully connected to MongoDB database: ColourMemoryDb
+2025-04-27 21:13:45.185 +02:00 [INF] Starting CreateGameAsync method...
+2025-04-27 21:13:45.331 +02:00 [INF] New game created successfully with 16 cards.
+2025-04-27 21:13:45.339 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 21:13:45.349 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api) in 435.8563ms
+2025-04-27 21:13:45.352 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.StartGame (ColourMemory.Api)'
+2025-04-27 21:13:45.355 +02:00 [INF] HTTP POST /api/game/start responded 200 in 462.3208 ms
+2025-04-27 21:13:45.360 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7042/api/game/start - 200 null application/json; charset=utf-8 475.4765ms
+2025-04-27 21:14:13.122 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/api/game/680e81e99d5e93067c96d856 - null null
+2025-04-27 21:14:13.134 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 21:14:13.147 +02:00 [INF] Route matched with {action = "GetGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] GetGame(System.String) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 21:14:13.312 +02:00 [INF] Game retrieved successfully with ID: 680e81e99d5e93067c96d856
+2025-04-27 21:14:13.313 +02:00 [INF] Executing OkObjectResult, writing value of type 'ColourMemory.Api.Models.Game'.
+2025-04-27 21:14:13.315 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api) in 165.4158ms
+2025-04-27 21:14:13.316 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 21:14:13.318 +02:00 [INF] HTTP GET /api/game/680e81e99d5e93067c96d856 responded 200 in 184.6979 ms
+2025-04-27 21:14:13.320 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/api/game/680e81e99d5e93067c96d856 - 200 null application/json; charset=utf-8 198.6836ms
+2025-04-27 21:17:13.981 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7042/api/game/aaaaaaaaaaaaaaaaaaaaaaaa - null null
+2025-04-27 21:17:13.990 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 21:17:13.991 +02:00 [INF] Route matched with {action = "GetGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ColourMemory.Api.Models.Game]] GetGame(System.String) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 21:17:14.027 +02:00 [WRN] No game found with ID: aaaaaaaaaaaaaaaaaaaaaaaa
+2025-04-27 21:17:14.031 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-04-27 21:17:14.041 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api) in 47.5148ms
+2025-04-27 21:17:14.044 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.GetGame (ColourMemory.Api)'
+2025-04-27 21:17:14.048 +02:00 [INF] HTTP GET /api/game/aaaaaaaaaaaaaaaaaaaaaaaa responded 404 in 59.0134 ms
+2025-04-27 21:17:14.051 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7042/api/game/aaaaaaaaaaaaaaaaaaaaaaaa - 404 null application/problem+json; charset=utf-8 71.1475ms
+2025-04-27 21:20:20.237 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7042/api/game/680e81e99d5e93067c96d856 - application/json 1080
+2025-04-27 21:20:20.245 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 21:20:20.252 +02:00 [INF] Route matched with {action = "UpdateGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateGame(System.String, ColourMemory.Api.Models.Game) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 21:20:20.333 +02:00 [INF] Successfully updated game with ID: 680e81e99d5e93067c96d856
+2025-04-27 21:20:20.337 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-27 21:20:20.338 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api) in 79.5142ms
+2025-04-27 21:20:20.340 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 21:20:20.341 +02:00 [INF] HTTP PUT /api/game/680e81e99d5e93067c96d856 responded 204 in 96.0941 ms
+2025-04-27 21:20:20.343 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7042/api/game/680e81e99d5e93067c96d856 - 204 null null 110.6988ms
+2025-04-27 21:21:36.740 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7042/api/game/aaaaaaaaaaaaaaaaaaaaaaaaa - application/json 1080
+2025-04-27 21:21:36.747 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 21:21:36.750 +02:00 [INF] Route matched with {action = "UpdateGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateGame(System.String, ColourMemory.Api.Models.Game) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 21:21:37.107 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api) in 348.188ms
+2025-04-27 21:21:37.154 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 21:21:37.187 +02:00 [ERR] HTTP PUT /api/game/aaaaaaaaaaaaaaaaaaaaaaaaa responded 500 in 439.7099 ms
+System.FormatException: 'aaaaaaaaaaaaaaaaaaaaaaaaa' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.LinqProviderAdapter.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, ExpressionTranslationOptions translationOptions)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.ConvertWriteModelToWriteRequest(WriteModel`1 model, Int32 index, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass85_0.<CreateBulkWriteOperation>b__0(WriteModel`1 model, Int32 index)
+   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at MongoDB.Driver.Core.Operations.BulkMixedWriteOperation..ctor(CollectionNamespace collectionNamespace, IEnumerable`1 requests, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateBulkWriteOperation(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.ReplaceOneAsync(FilterDefinition`1 filter, TDocument replacement, ReplaceOptions options, Func`3 bulkWriteAsync)
+   at ColourMemory.Api.Services.GameService.UpdateGameAsync(String id, Game game) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 96
+   at ColourMemory.Api.Controllers.GameController.UpdateGame(String id, Game updatedGame) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Controllers\GameController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-27 21:21:37.337 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: 'aaaaaaaaaaaaaaaaaaaaaaaaa' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.LinqProviderAdapter.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, ExpressionTranslationOptions translationOptions)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(RenderArgs`1 args)
+   at MongoDB.Driver.MongoCollectionImpl`1.ConvertWriteModelToWriteRequest(WriteModel`1 model, Int32 index, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass85_0.<CreateBulkWriteOperation>b__0(WriteModel`1 model, Int32 index)
+   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at MongoDB.Driver.Core.Operations.BulkMixedWriteOperation..ctor(CollectionNamespace collectionNamespace, IEnumerable`1 requests, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateBulkWriteOperation(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, RenderArgs`1 renderArgs)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.ReplaceOneAsync(FilterDefinition`1 filter, TDocument replacement, ReplaceOptions options, Func`3 bulkWriteAsync)
+   at ColourMemory.Api.Services.GameService.UpdateGameAsync(String id, Game game) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Services\GameService.cs:line 96
+   at ColourMemory.Api.Controllers.GameController.UpdateGame(String id, Game updatedGame) in C:\Users\A549718\Projects\colour-memory-game\backend\ColourMemory.Api\Controllers\GameController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-27 21:21:37.383 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7042/api/game/aaaaaaaaaaaaaaaaaaaaaaaaa - 500 null text/plain; charset=utf-8 643.3242ms
+2025-04-27 21:22:29.592 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7042/api/game/aaaaaaaaaaaaaaaaaaaaaaaa - application/json 1080
+2025-04-27 21:22:29.603 +02:00 [INF] Executing endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 21:22:29.606 +02:00 [INF] Route matched with {action = "UpdateGame", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateGame(System.String, ColourMemory.Api.Models.Game) on controller ColourMemory.Api.Controllers.GameController (ColourMemory.Api).
+2025-04-27 21:22:29.642 +02:00 [WRN] No game was updated. Game with ID aaaaaaaaaaaaaaaaaaaaaaaa may not exist.
+2025-04-27 21:22:29.645 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-27 21:22:29.646 +02:00 [INF] Executed action ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api) in 36.7611ms
+2025-04-27 21:22:29.648 +02:00 [INF] Executed endpoint 'ColourMemory.Api.Controllers.GameController.UpdateGame (ColourMemory.Api)'
+2025-04-27 21:22:29.649 +02:00 [INF] HTTP PUT /api/game/aaaaaaaaaaaaaaaaaaaaaaaa responded 204 in 46.3725 ms
+2025-04-27 21:22:29.651 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7042/api/game/aaaaaaaaaaaaaaaaaaaaaaaa - 204 null null 59.8354ms
