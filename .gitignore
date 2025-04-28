@@ -13,6 +13,7 @@ obj/
 # Logs
 *.log
 Logs/
+backend/ColourMemory.Api/Logs/
 
 # OS-filer
 .DS_Store
