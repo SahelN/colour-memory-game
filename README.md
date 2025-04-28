@@ -33,7 +33,7 @@ A fullstack memory game built with React (frontend) and ASP.NET Core (backend), 
 ## 🛠️ Technologies
 
 - **Frontend**: React, TypeScript
-- **Backend**: ASP.NET Core 9 Web API, C#
+- **Backend**: ASP.NET Core 8 Web API, C#
 - **Database**: MongoDB (local via Docker or MongoDB Atlas)
 - **Other tools**: Docker, Serilog, ESLint, Prettier
 
