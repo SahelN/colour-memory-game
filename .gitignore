@@ -1,18 +1,19 @@
-# .NET
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# .NET/Visual Studio
+.vs/
 bin/
 obj/
 *.user
 *.suo
 
-# Node.js / React
-node_modules/
-build/
-dist/
-.env
+# Logs
+*.log
+Logs/
 
 # OS-filer
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
