@@ -25,7 +25,21 @@ builder.Services.Configure<MongoDbSettings>(
     builder.Configuration.GetSection("MongoDbSettings"));
 builder.Services.AddSingleton<IGameService, GameService>();
 
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+// Use CORS policy
+app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
